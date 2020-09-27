@@ -1,0 +1,62 @@
+//// bootstrap 4
+//$grid-breakpoints: (
+//	// Extra small screen / phone
+//				xs: 0,
+//	// Small screen / phone
+//				sm: 576px,
+//	// Medium screen / tablet
+//				md: 768px,
+//	// Large screen / desktop
+//				lg: 992px,
+//	// Extra large screen / wide desktop
+//				xl: 1700px
+//);
+//
+//
+//$container-max-widths: (
+//				sm: 540px,
+//				md: 720px,
+//				lg: 960px,
+//				xl: 1680px
+//);
+
+$theme-colors: (
+		"primary": #08172d
+);
+
+// Font
+$mainFont                : "MyriadPro-Regular", Helvetica, Arial, sans-serif;
+
+// Size
+$browser-context         : 18px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.4;
+
+// Main color
+$default-color           : #ffffff;
+$primary-color           : #444ce0;
+$success-color           : #26de81;
+$danger-color            : #fc5c65;
+$warning-color           : #fed330;
+$light-color             : #999999;
+$purple-color            : #8854d0;
+
+// Neutral Color
+$neutral-primary         : #303133;
+$neutral-regular         : #606266;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : #00264c;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+$color-main             : #08172d;
+$color-second           : #344258;
+$color-accent           : #FFD600;
+$color-black            : #000000;
+$color-white            : #ffffff;
+$color-base             : #08172d;
+$color-dark             : #42424D;

@@ -1,0 +1,97 @@
+@import "mixins";
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+	min-width: 320px;
+	color: $color-base;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0 auto;
+  font-family: $mainFont;
+  font-size: $browser-context;
+  font-weight: $mainFontWeight;
+  line-height: $mainLineHeight;
+	background: $default-color;
+	font-smoothing: antialiased;
+	text-size-adjust: none;
+
+	@media screen and (max-width: 1199px){
+		font-size: 15px;
+	}
+
+	@media screen and (max-width: 991px){
+		font-size: 14px;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+body a,
+body button {
+	outline: none;
+
+	&:hover,
+	&:focus {
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+input,
+textarea,
+select {
+	&:focus {
+		outline: none;
+	}
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.footer{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	flex-grow: 1;
+}
+
+.header{
+	width: 100%;
+}
+
+
